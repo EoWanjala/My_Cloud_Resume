@@ -22,8 +22,11 @@ The diagram was designed using Lucid Charts
 
 ## Video
 
-## Challenges
+## Challenges Encountered
 I had a challenge with creating my cloudfront distribution, requiring my account be verified before creation. It took about 4 days.
+
+## Future Improvement
+Implement CI/CD Pipeline together with GitHub 
 
 ## Acknowledgements
 Props to Ann Andega for the .html and .css file template
