@@ -1,0 +1,111 @@
+{
+
+    "doc": {"S": "Resume"},
+    "name": {"S": "Eric Wanjala"},
+    "profession": {"S": "Telecommunications Engineer"},
+    "contact": {"M":{
+      "phone": {"N": "0748058950"},
+      "email": {"S": "ericwanjala68@gmail.com"},
+      "linkedin": {"S": "www.linkedin.com/in/eric-wanjala-8733a5219"}}
+    },
+    "skills": [
+
+      {
+        "name": {"S": "Python"},
+        "level": {"S": "proficient"}
+      },
+      {
+        "name": {"S": "AWS"},
+        "level": {"S": "proficient"}
+      },
+      {
+        "name": {"S": "SQL"},
+        "level": {"S": "proficient"}
+      },
+      {
+        "name": {"S": "Networking"},
+        "level": {"S": "proficient"}
+      },
+      {
+        "name": {"S": "Fiber optics termination"},
+        "level": {"S": "proficient"}
+      }
+    ],
+    "references": [
+      {
+        "name": {"S": "Mr. Paul Muhia"},
+        "position": {"S": "Engineer, Powward Limited"},
+        "contact": {
+          "phone": {"S": "+254741173640"},
+          "email": {"S": "paulmuhia@gmail.com"}
+        }
+      },
+      {
+        "name": {"S": "Mrs. Sharon Chepkirui"},
+        "position": {"S": "Supervisor, Impala Africa Technologies"},
+        "contact": {
+          "phone": {"S": "+254726634388"},
+          "email": {"S": "sharonchepkirui@gmail.com"}
+        }
+      },
+      {
+        "name": {"S": "Dr. Edwell Tafara Mharakurwa"},
+        "position": {"S": "C.O.D, Electrical and Electronics Engineering Dedan Kimathi University of Technology"},
+        "contact": {
+          "phone": {"S": "+254791800083"},
+          "email": {"S": "edwell.tafara@dkut.ac.ke"}
+        }
+      }
+    ],
+    "about": {"S": "I am a highly motivated and ardent cloud practitioner keen on improving my self and learning in every sense. I have confidence in my ability to applying and adding to roles involved positively. I also regard myself a leader at personal capacity always,struggling for self growth. My diverse skillset from engineering to cloud Computing have also positively improved my association,communication and problem solving skills."},
+    "experience": [
+      {
+        "company": {"S": "CloudMyTribe"},
+        "position": {"S": "Developer"},
+        "duration": {"S": "2024 - Present"},
+        "responsibilities": [
+          {"S": "Assisted in the implementation of new technologies and best practices, increasing project efficiency by 20%"},
+          {"S": "Wrote extensive documents outlining critical programming requirements and procedures"},
+          {"S": "Developed test plans and executed unit tests to ensure accuracy and reliability of solutions before deployments"}
+        ]
+      },
+      {
+        "company": {"S": "Impala Africa Technologies"},
+        "position": {"S": "Technical Assistant- Intern"},
+        "duration": {"S": "January,2023 -March, 2023"},
+        "responsibilities": [
+          {"S": "Troubleshot network connectivity issues using various diagnostic tools such as ping tests or traceroutes and Wireshark."},
+          {"S": "Fiber optics installation and maintenance."}
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": {"S": "Bachelor of Science (B.S.) Telecommunication and Information Engineering"},
+        "institution": {"S": "Undergraduate"},
+        "duration": {"S": "May,2019 - May,2024"},
+        "skills": [
+          {"S": "Python and MATLAB Programming"},
+          {"S": "Networking"},
+          {"S": "Satellite and Antenna technology"}
+        ]
+      }
+    ],
+    "certifications": [
+      {
+        "name": {"S": "AWS Certified Cloud Practitioner"},
+        "date": {"S": "April 2024"}
+      }
+    ],
+    "projects": [
+      {
+        "name": {"S": "Automated billing and shopping station using RFID"},
+        "description": {"S": "Entailed circuit design for the station using proteus, coding raspberry pi microcomputer and actualizing the electrical circuitry and wiring for integration."}
+      },
+      {
+        "name": {"S": "Personal Portfolio Website"},
+        "description": {"S": "Built with HTML, CSS, Javascript and Python."}
+      }
+    ]
+  }
+  
