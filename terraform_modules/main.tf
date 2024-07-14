@@ -24,4 +24,15 @@ resource "aws_subnet" "public_subnet" {
   tags = {
     Name = "public_subnet"
   }
+
+
+}
+
+module "webserver" {
+  source = "terraform_modules/My_Modules/ec2"
+  server_name = "production_webserver"
+  instance_size = "t2.micro"
+  subnet_id = aws_subnet.public_subnet.id
+  security_group_ids = [aws_vpc.production.vpc_security_group_ids]
+  
 }
